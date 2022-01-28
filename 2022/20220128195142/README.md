@@ -27,3 +27,5 @@ $ cd <url>
 $ git sparse-checkout init --cone
 $ git sparse-checkout set "some/dir/"
 ```
+
+#Git #SoftwareEngineering
