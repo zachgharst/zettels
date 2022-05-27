@@ -70,31 +70,31 @@ data is being used downstream.
 
 Story created using U-Story:
 
-- Establish status: I was the team lead on a team of 8 SDEs that was
+- **Establish status**: I was the team lead on a team of 8 SDEs that was
 responsible for several mission critical data plane services for our flagship
 product. I was responsible for not just system components or the features that
 my team owned, but the architecture. I spoke with an adjacent team to take
 ownership with software they owned because it aligned more with our team's
 charter.
-- Quick challenge and climb: Turns out it was pretty buggy but that wasn't a
+- **Quick challenge and climb**: Turns out it was pretty buggy but that wasn't a
 big deal after I squashed bugs and added unit & integration tests.
-- Another challenge: The big issues started later, it started paging our
+- **Another challenge**: The big issues started later, it started paging our
 on-call late at night, and people would restart the process and move on. I dug
 into the issue when I was on-call and discovered we depend on sus4j; its usage
 is not allowed in the company and we needed to move away from it; it would take
 a month and we were coming up on an important deadline.
-- More challenges: Deprecating the service was the best call, and they posed a
+- **More challenges**: Deprecating the service was the best call, and they posed a
 lot of problems because we didn't know who all was using the service.
-- The climb: I turned on passthrough mode to identify clients; it didn't stop
+- **The climb**: I turned on passthrough mode to identify clients; it didn't stop
 them from getting data but it let us know who they were. I split the clients up
 amongst our team members, and I went to our VP to get an exception for not
 removing sus4j for a couple of months. We let the client teams know that the
 service will be turned off in a few months, and we helped them move to our
 existing endpoints. It disrupted our schedule but didn't blow up our project.
-- Another challenge: There was one team who pushed back on us; we didn't have
+- **Another challenge**: There was one team who pushed back on us; we didn't have
 APIs to help them and they escalated up the management chain. We didn't have
 bandwidth to work with them while we were heads down trying to launch.
-- Climb: We did what we could to help them after our launch to deliver the
+- **Climb**: We did what we could to help them after our launch to deliver the
 functionality they needed. Even today relations between our teams today are a
 bit strained. It all worked out today, I'm pretty happy with the way the
 architecture works.
