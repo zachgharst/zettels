@@ -14,5 +14,4 @@
 - The vast majority of software today follows that complicated context:
   distributed systems.
 - Code Examples are available on
-  [GitHub](https://github.com/cdavisafc/cloudnative-abundantsunshine)
-
+  [GitHub](https://github.com/cdavisafc/cloudnative-abundantsunshine).
