@@ -14,7 +14,8 @@ Davis](https://www.goodreads.com/book/show/36410104-cloud-native-patterns)
   the infrastructure itself.
 - Netflix was able to fully recover minutes after an AWS outage on
   September 20th with redundant systems and simulated regional outages
-  performed.  ![Figure 1.2](figure_1.2.png)
+  performed.  
+  ![Figure 1.2](figure_1.2.png)
 - In the past, change or failure is treated as an exception; Netflix and
   other large-scale internet-native companies treat change or failure as
   the rule.
