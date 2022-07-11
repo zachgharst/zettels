@@ -34,3 +34,8 @@ adding noise to the PR. As well, there's serious value in being able to
 read through the history of the repo to understand the code. Detailed
 pull request commits should detail: the current problem, what's changing
 to address the problem, and how the change is tested.
+
+The article on GitHub takes it a step beyond -- reorder and squash
+commits. `git commit --fix-up [commit]` is new to me, too, and I want to
+learn more about it and play with it some.
+
