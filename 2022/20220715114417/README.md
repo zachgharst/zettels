@@ -1,3 +1,3 @@
 # Test a Title Change
 
-Does a body change affect anything?
+Edit looks good. Leave this zettel to test `zet delete`.
