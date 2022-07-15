@@ -1,4 +1,4 @@
-# Cloud Native Patterns: Ch. 2, Running cloud-native applications in production
+# Cloud Native Patterns - Ch. 2, Running cloud-native applications in production
 
 [Cloud Native Patterns by Cornelia
 Davis](https://www.goodreads.com/book/show/36410104-cloud-native-patterns)
