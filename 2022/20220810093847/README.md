@@ -9,6 +9,7 @@
   the same outcome as software implementing the other.
 - In a cloud setting, however, the solution is highly distributed and
   constantly changing with wildly varying outcomes.
+- CQRS plays an important role in event-driven systems.
 
 ## We're (usually) taught imperative programming
 
@@ -57,3 +58,25 @@ no downstream requests. A request is made, and the data is fetched from
 the database directly by the Connections' Posts which is a result of
 propagated events.
 
+In the book, she describes this event as being emitted as an HTTP POST.
+When a new blog is made, it makes a POST request to Connections' Post to
+record that entry. Connections' Post is entirely autonomous. This allows
+for the services to be loosely coupled. As well, aggregation happens
+when events are processed *not* when they are requested.
+
+## Introducing Command Query Responsibility Segregation
+
+Separate write logic (commands) from read logic (queries). This is the
+root of CQRS pattern. Separate models and controllers allows for this --
+code is easier to understand and maintain and the surface area for bugs
+is reduced. Because of this, it also allows for different protocols on
+both sides (maybe Functions as a Service)
+
+## Different styles, similar challenges
+
+Both implementations talk about the happy path. Imagine:
+
+- Network partitions cut off from one another
+- Unexpected latency in producing lists of individuals
+- The services are running on unstable IP addresses
+- Certificates and credentials need to be rotated
