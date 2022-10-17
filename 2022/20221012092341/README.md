@@ -2,6 +2,13 @@
 
 ## Summary
 
+- Circuit breakers are essential to protect a service from being
+  overwhelmed by load.
+- API gateways operate well in the context of highly distributed,
+  constantly changing software.
+- Patterns across client/service side of an interaction can be deployed
+  as a sidecar proxy.
+
 ## Circuit breakers
 
 Circuit breakers protect the service from being overwhelmed when it is
